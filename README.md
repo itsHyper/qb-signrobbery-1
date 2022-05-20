@@ -17,12 +17,12 @@ Sign Robbery for QBCore
 
 # qb-core / shared / items.lua
 ```lua
-	["stopsign"] 				     = {["name"] = "stopsign", 				        ["label"] = "Stop Sign", 			        ["weight"] = 1, 		["type"] = "item", 		["image"] = "stopsign.png", 		        	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,    ["description"] = "Stop Sign"},
-	["walkingmansign"] 				 = {["name"] = "walkingmansign", 				["label"] = "Pedestrian Sign", 			    ["weight"] = 1, 		["type"] = "item", 		["image"] = "walkingmansign.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Pedestrian Sign"},
-	["dontblockintersectionsign"] 	 = {["name"] = "dontblockintersectionsign", 	["label"] = "Intersection Sign", 			["weight"] = 1, 		["type"] = "item", 		["image"] = "dontblockintersectionsign.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Intersection Sign"},
-	["uturnsign"] 				     = {["name"] = "uturnsign", 				    ["label"] = "U Turn Sign", 			        ["weight"] = 1, 		["type"] = "item", 		["image"] = "uturnsign.png", 		        	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "U Turn Sign"},
-	["noparkingsign"] 				 = {["name"] = "noparkingsign", 				["label"] = "No Parking Sign", 			    ["weight"] = 1, 		["type"] = "item", 		["image"] = "noparkingsign.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "No Parking Sign"},
-	["leftturnsign"] 				 = {["name"] = "leftturnsign", 				    ["label"] = "Left Turn Sign", 			    ["weight"] = 1, 		["type"] = "item", 		["image"] = "leftturnsign.png", 		        ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Left Turn Sign"},
+["stopsign"] = {["name"] = "stopsign", ["label"] = "Stop Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "stopsign.png", ["unique"] = false, ["useable"] = true ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Stop Sign"},
+["walkingmansign"] = {["name"] = "walkingmansign", ["label"] = "Pedestrian Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "walkingmansign.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Pedestrian Sign"},
+["dontblockintersectionsign"] = {["name"] = "dontblockintersectionsign", ["label"] = "Intersection Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "dontblockintersectionsign.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Intersection Sign"},
+["uturnsign"] = {["name"] = "uturnsign", ["label"] = "U Turn Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "uturnsign.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "U Turn Sign"},
+["noparkingsign"] = {["name"] = "noparkingsign", ["label"] = "No Parking Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "noparkingsign.png", ["unique"] = false ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "No Parking Sign"},
+["leftturnsign"] = {["name"] = "leftturnsign", ["label"] = "Left Turn Sign", ["weight"] = 1, ["type"] = "item", ["image"] = "leftturnsign.png", ["unique"] = false ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Left Turn Sign"},
 
 # dp emotes / client / AnimationList.lua
 ```lua
