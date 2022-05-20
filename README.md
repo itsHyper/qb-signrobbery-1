@@ -5,7 +5,6 @@ Sign Robbery for QBCore
 # Dependencies 
 
 - [qb-target](https://github.com/BerkieBb/qb-target)
-- [qb-menu](https://github.com/qbcore-framework/qb-menu)
 - [qb-lock](https://github.com/Tex27/qb-lock)
 
 # Installation
